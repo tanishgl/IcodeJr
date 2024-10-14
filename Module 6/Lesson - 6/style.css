@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.b-day {
+  background-color: orange;
+}
+
+.b-night {
+  background-color: rgb(2, 2, 31);
+}
+
+.switch {
+  width: 4rem;
+  height: 2rem;
+  border-radius: 20px;
+  border: 2px solid black;
+  background-color: #a7b2c1;
+  position: relative;
+}
+
+.bulb {
+  position: absolute;
+  border-radius: 50%;
+  width: 1.8rem;
+  height: 1.8rem;
+  cursor: pointer;
+}
+
+.day {
+  background-color: yellow;
+  top: 0;
+}
+
+.night {
+  animation: moveRight 1s ease-in-out 0s 1 forwards;
+}
+
+.day-animation {
+  animation: moveLeft 1s ease-in-out 0s 1 forwards;
+}
+
+@keyframes moveRight {
+  0% {
+    left: 0;
+    background-color: yellow;
+  }
+
+  50% {
+    background-color: rgb(126, 130, 75);
+  }
+
+  100% {
+    left: 2rem;
+    background-color: black;
+  }
+}
+
+@keyframes moveLeft {
+  0% {
+    right: 0;
+    background-color: black;
+  }
+
+  50% {
+    background-color: rgb(126, 130, 75);
+  }
+
+  100% {
+    right: 2rem;
+    background-color: yellow;
+  }
+}
