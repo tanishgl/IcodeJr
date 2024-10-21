@@ -1,0 +1,22 @@
+header {
+  background-color: brown;
+  border-radius: 20px;
+  border: 2px solid orange;
+  color: orange;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header p {
+  color: #fff;
+}
+
+div {
+  background-color: orange;
+  border-radius: 20px;
+  border: 2px solid brown;
+  color: brown;
+  margin-top: 1rem;
+  padding: 10px 20px;
+}

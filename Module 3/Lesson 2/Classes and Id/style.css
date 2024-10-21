@@ -1,0 +1,19 @@
+.flavor {
+  border: 2px solid black;
+}
+
+#vanilla {
+  background-color: violet;
+}
+
+h1 {
+  background-color: blue;
+  color: red;
+  font-size: 18px;
+  padding: 2px;
+}
+
+.title {
+  background-color: olivedrab;
+  color: white;
+}

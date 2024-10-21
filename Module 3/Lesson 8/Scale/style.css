@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  width: 80px;
+  height: 80px;
+  background-color: darkkhaki;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-2 {
+  transform: translateX(100px) scale(1.8);
+}
+
+.box-3 {
+  transform: translateY(100px) scale(0.8);
+}
+
+.box-4 {
+  transform: translate(100px, 100px) scale(1);
+}

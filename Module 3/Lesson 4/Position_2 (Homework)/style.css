@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 2000px;
+}
+
+div {
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  background-color: darkkhaki;
+  border: 2px solid brown;
+}
+
+.pos-rel {
+  position: relative;
+}
+
+.pos-abs {
+  position: absolute;
+  background-color: darkgreen;
+  top: 100px;
+  left: 25px;
+}
+
+.pos-fix {
+  position: fixed;
+  bottom: 100px;
+  left: 100px;
+  background-color: darkblue;
+  color: white;
+}

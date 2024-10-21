@@ -1,0 +1,15 @@
+h2 {
+  color: green;
+  background-color: yellow;
+}
+
+img {
+  width: 200px;
+  height: 400px;
+}
+
+em {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+}

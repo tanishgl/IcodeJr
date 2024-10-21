@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+.read-more {
+  font-size: 20px;
+  text-decoration: none;
+  color: rgba(112, 169, 161);
+}
+
+.read-more:link,
+.read-more:visited {
+  text-transform: uppercase;
+}
+
+.read-more:hover,
+.read-more:active {
+  color: blue;
+}

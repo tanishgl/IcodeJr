@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+.frame {
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  background-color: lightcoral;
+  padding: 10px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border: 1px dotted purple;
+  align-self: center;
+  justify-self: center;
+}
+
+.caption {
+  grid-column: 1 / 4;
+  text-align: center;
+}

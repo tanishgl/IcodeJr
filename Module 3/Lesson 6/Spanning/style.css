@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+.grid {
+  width: fit-content;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: black;
+  padding: 2px;
+  gap: 2px;
+}
+
+.cell {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+}
+
+.cell-1 {
+  background-color: #f08080;
+}
+
+.cell-2 {
+  width: 60px;
+  background-color: #f4978e;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.cell-3 {
+  background-color: #fbc4ab;
+}
+
+.cell-4 {
+  background-color: #f8ad9d;
+}
+
+.cell-5 {
+  background-color: #ffdab9;
+}
+
+.cell-6 {
+  background-color: #f7b05b;
+}

@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+.orange {
+  width: 300px;
+  padding: 20px;
+  background-color: orange;
+  margin-bottom: 20px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

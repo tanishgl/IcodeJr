@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+.grid {
+  width: 400px;
+  height: 400px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: black;
+  padding: 2px;
+  gap: 2px;
+}
+
+.cell {
+  --side: 60px;
+  width: var(--side);
+  height: var(--side);
+  background-color: white;
+  justify-self: center;
+  align-self: center;
+}
+
+.cell-1 {
+  background-color: #f08080;
+}
+
+.cell-2 {
+  background-color: #f4978e;
+}
+
+.cell-3 {
+  background-color: #fbc4ab;
+}
+
+.cell-4 {
+  background-color: #f8ad9d;
+}
+
+.cell-5 {
+  background-color: #ffdab9;
+}
+
+.cell-6 {
+  background-color: #f7b05b;
+}
+
+.cell-7 {
+  background-color: #f8abd2;
+}
+
+.cell-8 {
+  background-color: #f2a2ba;
+}
+
+.cell-9 {
+  background-color: #fba21b;
+}

@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+div {
+  width: 400px;
+  border: 1px solid black;
+  background-color: lightcoral;
+  background-origin: content-box;
+}
+
+.pad-play-1 {
+  padding: 100px;
+}
+
+.pad-play-2 {
+  padding: 100px 20px;
+}
+
+.pad-play-4 {
+  padding: 10px 20px 30px 40px;
+}

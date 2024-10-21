@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
+p::first-line {
+  text-transform: uppercase;
+  color: brown;
+}
+
+img {
+  width: 200px;
+  height: 100px;
+  transition: all 0.5s linear;
+}
+
+img:hover {
+  transform: scale(1.5);
+}

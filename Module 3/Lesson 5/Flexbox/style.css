@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  width: 500px;
+  height: 200px;
+  display: flex;
+  padding: 10px;
+  background-color: #c23c23;
+  gap: 10px;
+  justify-content: center;
+  align-items: start;
+}
+
+.item {
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+  border: 1px solid white;
+  background-color: #a23ab2;
+}

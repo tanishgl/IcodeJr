@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+.blue-box {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(112, 169, 161);
+  margin: 2rem 0 0 2rem;
+  transition: transform 3s ease-in-out;
+  animation: disco 2s linear 0s infinite forwards;
+}
+
+.blue-box:hover {
+  transform: rotate(30deg);
+}
+
+@keyframes disco {
+  0% {
+    background-color: red;
+  }
+
+  50% {
+    background-color: blue;
+  }
+
+  100% {
+    background-color: green;
+  }
+}

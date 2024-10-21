@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  width: 200px;
+  height: 160px;
+  border-radius: 20px;
+  position: relative;
+  background-color: #f4978e;
+}
+
+.arrow {
+  width: 20px;
+  height: 20px;
+  font-weight: 600;
+  border: 2px solid #56351e;
+  border-radius: 50%;
+  position: absolute;
+  top: 70px;
+  right: -10px;
+  text-align: center;
+  background-color: #f19953;
+  color: #56351e;
+}
