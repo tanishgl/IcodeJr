@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --page-w: 300px;
+  --page-h: 400px;
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+.book {
+  position: relative;
+  background-color: darkslategray;
+  margin-left: 400px;
+}
+
+.page-title {
+  z-index: 0;
+}
+
+.page {
+  width: var(--page-w);
+  height: var(--page-h);
+  padding: 10px;
+  position: absolute;
+  background-color: lightgray;
+  left: 0px;
+  top: 0;
+  transform-origin: 0px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.page img {
+  width: 200px;
+  height: 200px;
+}
+
+.page-num {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  padding: 2px;
+  border-radius: 50%;
+  left: 10px;
+  bottom: 10px;
+}
+
+.btn {
+  position: absolute;
+  bottom: 10px;
+  width: 30px;
+  height: 30px;
+  padding: 2px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+  outline: 1px solid black;
+}
+
+.btn-next {
+  right: 10px;
+}
+
+.btn-prev {
+  right: 50px;
+}
+
+.flip {
+  animation: page-flip 2s ease-in 0s 1 forwards;
+}
+
+.flip-back {
+  animation: page-flip-back 2s ease-in 0s 1 forwards;
+}
+
+.flex {
+  display: flex;
+}
+
+@keyframes page-flip {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(180deg);
+  }
+}
+
+@keyframes page-flip-back {
+  0% {
+    transform: rotateY(180deg);
+  }
+  100% {
+    transform: rotateY(0deg);
+  }
+}
