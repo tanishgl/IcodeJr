@@ -97,6 +97,7 @@ function turnNextPage(pageNo) {
   let page = book.children[pageNo];
   page.classList.remove("flip-back");
   page.classList.add("flip");
+  page.style.zIndex = 0;
   toggleButtonsVisibility(page, false);
 }
 
@@ -107,6 +108,9 @@ function turnPrevPage(pageNo) {
   let page = book.children[pageNo - 1];
   page.classList.remove("flip");
   page.classList.add("flip-back");
+  setTimeout(() => {
+    page.style.zIndex = -(pageNo - 1);
+  }, 2000);
   toggleButtonsVisibility(page, true);
 }
 
