@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: black;
+  font-family: "Montserrat";
+}
+
+header {
+  margin-bottom: 8rem;
+}
+
+header nav {
+  width: fit-content;
+  display: flex;
+  gap: 10px;
+  border-radius: 12px;
+  padding: 8px;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  left: 30%;
+  top: 8px;
+}
+
+.nav-btn,
+select {
+  border-radius: 8px;
+  background-color: #000;
+  color: #fff;
+  padding: 4px;
+  cursor: pointer;
+}
+
+header main {
+  display: flex;
+  margin-top: 6rem;
+}
+
+.banner {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: white;
+}
+
+.album {
+  width: 50%;
+  display: flex;
+  gap: 2px;
+}
+
+.album img {
+  width: 33%;
+}
+
+.login-btn {
+  max-width: 20%;
+  background-color: #22a;
+  color: white;
+  padding: 12px;
+  cursor: pointer;
+  align-self: center;
+  border: none;
+}
+
+.carousel-img {
+  overflow-x: hidden;
+  margin-bottom: 6rem;
+}
+
+.channel-grid {
+  flex: 1 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4px;
+}
+
+.channel-banner {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.channel-banner h1 {
+  font-size: 32px;
+}
+
+.channel-banner h2 {
+  font-size: 16px;
+}
+
+.channels {
+  display: flex;
+  color: white;
+  padding: 12px;
+}
+
+.card {
+  width: 8rem;
+  height: 5rem;
+  background-color: blueviolet;
+  padding: 6px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+footer nav {
+  display: flex;
+  gap: 40px;
+  color: blue;
+}
+
+footer nav a:hover,
+footer nav a:active {
+  color: skyblue;
+  text-decoration: none;
+}
