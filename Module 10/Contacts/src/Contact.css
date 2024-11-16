@@ -1,0 +1,28 @@
+.contact {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.name {
+  background-color: #f2af11;
+  padding: 10px;
+  border-radius: 12px;
+}
+
+.phone {
+  background-color: #123456;
+  color: whitesmoke;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 8px;
+}
+
+.email {
+  background-color: #20af5f;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 8px;
+}

@@ -1,0 +1,11 @@
+.title {
+  text-align: center;
+  margin: 20px auto 20px auto;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-self: center;
+}
