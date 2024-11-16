@@ -9,3 +9,8 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
+
+footer {
+  display: flex;
+  justify-content: center;
+}

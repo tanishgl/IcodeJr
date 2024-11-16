@@ -11,6 +11,12 @@ const App = () => {
           return <EmojiBox key={idx} emote={emoji}></EmojiBox>;
         })}
       </div>
+      {/* Homework */}
+      <footer>
+        {emojis.map((emoji, idx) => {
+          return <span key={idx}>{emoji.emoji}</span>;
+        })}
+      </footer>
     </>
   );
 };
