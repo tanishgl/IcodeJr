@@ -1,0 +1,19 @@
+.status {
+  margin-left: 10px;
+}
+
+.cmp {
+  color: green;
+}
+
+.pending {
+  color: orange;
+}
+
+.finish-btn {
+  margin-top: 10px;
+  margin-left: 20px;
+  background-color: white;
+  color: rgb(43, 226, 98);
+  border: 1px solid black;
+}

@@ -6,10 +6,12 @@ let tasks = [
   {
     name: "Complete Homework",
     estimate: "2 hours",
+    isComplete: false,
   },
   {
     name: "Play with friend",
     estimate: "3 hours",
+    isComplete: false,
   },
 ];
 
@@ -23,6 +25,7 @@ const Todo = () => {
       {
         name: taskName,
         estimate: est,
+        isComplete: false,
       },
     ];
     setRequestNew(false);
