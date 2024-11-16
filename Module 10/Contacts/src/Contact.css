@@ -1,6 +1,6 @@
 .contact {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 20px;
   justify-content: flex-start;
   align-items: center;
@@ -25,4 +25,12 @@
   padding: 10px;
   font-size: 20px;
   border-radius: 8px;
+}
+
+.dob {
+  background-color: #5420af;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 8px;
+  color: gainsboro;
 }
