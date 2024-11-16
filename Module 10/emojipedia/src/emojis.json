@@ -1,0 +1,102 @@
+[
+  {
+    "emoji": "😀",
+    "name": "Grinning Face",
+    "description": "A big, open smile showing happiness and friendliness."
+  },
+  {
+    "emoji": "😂",
+    "name": "Face with Tears of Joy",
+    "description": "Represents laughter to the point of crying; often used for something hilarious."
+  },
+  {
+    "emoji": "❤️",
+    "name": "Red Heart",
+    "description": "Symbolizes love, affection, or romantic feelings."
+  },
+  {
+    "emoji": "😎",
+    "name": "Smiling Face with Sunglasses",
+    "description": "Represents being cool, confident, or carefree."
+  },
+  {
+    "emoji": "🐶",
+    "name": "Dog Face",
+    "description": "A cute dog’s face; often represents pets or puppies."
+  },
+  {
+    "emoji": "🍎",
+    "name": "Red Apple",
+    "description": "Symbol of health, knowledge, or temptation."
+  },
+  {
+    "emoji": "🌟",
+    "name": "Glowing Star",
+    "description": "Represents brilliance, success, or being special."
+  },
+  {
+    "emoji": "🎉",
+    "name": "Party Popper",
+    "description": "Used to celebrate or represent festive occasions."
+  },
+  {
+    "emoji": "📚",
+    "name": "Books",
+    "description": "Symbolizes learning, education, or studying."
+  },
+  {
+    "emoji": "🌍",
+    "name": "Globe Showing Europe-Africa",
+    "description": "Represents the Earth, often used for topics about the world or travel."
+  },
+  {
+    "emoji": "🚀",
+    "name": "Rocket",
+    "description": "Represents space exploration, fast growth, or achievement."
+  },
+  {
+    "emoji": "🎵",
+    "name": "Musical Note",
+    "description": "Symbolizes music, rhythm, or sound."
+  },
+  {
+    "emoji": "🏀",
+    "name": "Basketball",
+    "description": "Represents sports, particularly basketball."
+  },
+  {
+    "emoji": "🔥",
+    "name": "Fire",
+    "description": "Symbolizes something awesome, intense, or on fire (literally or figuratively)."
+  },
+  {
+    "emoji": "✈️",
+    "name": "Airplane",
+    "description": "Represents travel, vacations, or flying."
+  },
+  {
+    "emoji": "🕒",
+    "name": "Clock Face Three O’Clock",
+    "description": "Represents time, punctuality, or schedules."
+  },
+  {
+    "emoji": "🌈",
+    "name": "Rainbow",
+    "description": "Represents hope, positivity, or the LGBTQ+ community."
+  },
+  {
+    "emoji": "🐱",
+    "name": "Cat Face",
+    "description": "A cute cat’s face; often used to represent pets or cuteness."
+  },
+  {
+    "emoji": "⚽",
+    "name": "Soccer Ball",
+    "description": "Represents football (soccer) or sports in general."
+  },
+  {
+    "emoji": "🍕",
+    "name": "Pizza Slice",
+    "description": "Represents food, particularly pizza."
+  }
+]
