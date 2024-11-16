@@ -1,0 +1,24 @@
+.todo-btn,
+.submit-btn {
+  margin-left: 20px;
+  background-color: gainsboro;
+  color: blueviolet;
+}
+
+.ip-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  padding: 20px;
+  background-color: ghostwhite;
+  border-radius: 8px;
+  margin-top: 1rem;
+}
+
+.input-btn {
+  margin-left: 20px;
+  padding: 20px;
+  background-color: white;
+  color: green;
+}
