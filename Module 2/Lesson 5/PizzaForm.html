@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <label for="firstname">
+        Please enter your firstname
+        <input
+          type="text"
+          id="firstname"
+          name="firstname"
+          placeholder="Enter your firstname"
+        />
+      </label>
+    </div>
+    <div>
+      <label for="del-addr">
+        Please enter your firstname
+        <input
+          type="text"
+          id="del-addr"
+          name="delivery-address"
+          placeholder="Enter your delivery address"
+        />
+      </label>
+    </div>
+    <div>
+      <label for="pizza">
+        Select Pizza
+        <select name="pizza" id="pizza">
+          <option value="margeritta">Margeritta</option>
+          <option value="cheese-onion">Cheese / Onion</option>
+          <option value="corn-top">Corn Top</option>
+          <option value="special">Our special</option>
+        </select>
+      </label>
+    </div>
+    <div>
+      <label for="veg">
+        Vegetarian
+        <input type="radio" name="pizza-type" id="veg" checked />
+      </label>
+      <label for="non-veg">
+        Non-Vegetarian
+        <input type="radio" name="pizza-type" id="non-veg" />
+      </label>
+    </div>
+    <label for="note">
+      Extra Note ?
+      <textarea id="note" name="note"></textarea>
+    </label>
+  </body>
+</html>
